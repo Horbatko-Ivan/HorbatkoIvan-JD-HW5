@@ -1,8 +1,8 @@
-package org.goit.hw4.main;
+package org.goit.hw5.main;
 
 public class DatabaseInitService {
 
-    private static final String INIT_DB_PATH = "src/main/java/org/goit/hw4/sql/init_db.sql";
+    private static final String INIT_DB_PATH = "src/main/java/org/goit/hw5/sql/init_db.sql";
 
     public static void main(String[] args) throws Exception {
 

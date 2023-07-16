@@ -1,4 +1,4 @@
-package org.goit.hw4.main;
+package org.goit.hw5.main;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -11,11 +11,11 @@ import java.util.List;
 
 public class DatabaseQueryService {
 
-    private static final String MAX_SALARY_WORKER_FILE_PATH = "src/main/java/org/goit/hw4/sql/find_max_salary_worker.sql";
-    private static final String LONGEST_PROJECT_FILE_PATH = "src/main/java/org/goit/hw4/sql/find_longest_project.sql";
-    private static final String MAX_PROJECTS_CLIENT_FILE_PATH = "src/main/java/org/goit/hw4/sql/find_max_projects_client.sql";
-    private static final String YOUNGEST_ELDEST_WORKERS_FILE_PATH = "src/main/java/org/goit/hw4/sql/find_youngest_eldest_workers.sql";
-    private static final String PRINT_PROJECT_PRICES_FILE_PATH = "src/main/java/org/goit/hw4/sql/print_project_prices.sql";
+    private static final String MAX_SALARY_WORKER_FILE_PATH = "src/main/java/org/goit/hw5/sql/find_max_salary_worker.sql";
+    private static final String LONGEST_PROJECT_FILE_PATH = "src/main/java/org/goit/hw5/sql/find_longest_project.sql";
+    private static final String MAX_PROJECTS_CLIENT_FILE_PATH = "src/main/java/org/goit/hw5/sql/find_max_projects_client.sql";
+    private static final String YOUNGEST_ELDEST_WORKERS_FILE_PATH = "src/main/java/org/goit/hw5/sql/find_youngest_eldest_workers.sql";
+    private static final String PRINT_PROJECT_PRICES_FILE_PATH = "src/main/java/org/goit/hw5/sql/print_project_prices.sql";
 
     public List<FindMaxSalaryWorker> findMaxSalaryWorker() throws IOException, SQLException {
 

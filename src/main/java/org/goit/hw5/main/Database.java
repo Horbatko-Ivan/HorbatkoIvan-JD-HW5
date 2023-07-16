@@ -1,4 +1,4 @@
-package org.goit.hw4.main;
+package org.goit.hw5.main;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

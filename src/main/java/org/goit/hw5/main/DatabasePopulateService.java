@@ -1,4 +1,4 @@
-package org.goit.hw4.main;
+package org.goit.hw5.main;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -10,7 +10,7 @@ import java.util.List;
 
 public class DatabasePopulateService {
 
-    private static final String POPULATE_DB_PATH = "src/main/java/org/goit/hw4/sql/populate_db.sql";
+    private static final String POPULATE_DB_PATH = "src/main/java/org/goit/hw5/sql/populate_db.sql";
 
     public static void main(String[] args) throws IOException, SQLException {
 
